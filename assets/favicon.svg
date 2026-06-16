@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="favGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#8a2be2" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded dark background container for premium look on all browser tab modes -->
+  <rect width="32" height="32" rx="7" fill="#000000" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Monogram Logo -->
+  <g transform="translate(4, 4)">
+    <!-- Hexagonal outer wireframe -->
+    <polygon points="12,2 21,7 21,17 12,22 3,17 3,7" fill="none" stroke="url(#favGradient)" stroke-width="1.2" opacity="0.4"/>
+    <!-- The S-monogram path -->
+    <path d="M16,7.5 L12,5 L8,7.5 L8,11 L16,13 L16,16.5 L12,19 L8,16.5" fill="none" stroke="url(#favGradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
